@@ -99,10 +99,16 @@ p {
   text-align: center;
 }
 @media (max-width: 500px) {
+  body {
+    text-align: center;
+  }
   .img-fluid {
     display: none;
   }
   h1 {
     font-size: 60px;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
