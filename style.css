@@ -98,3 +98,11 @@ p {
 .about-text {
   text-align: center;
 }
+@media (max-width: 500px) {
+  .img-fluid {
+    display: none;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
